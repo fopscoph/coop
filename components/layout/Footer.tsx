@@ -50,9 +50,8 @@ export default function Footer() {
                         <div className="w-full xl:w-2/6">
                             <h4 className="text-sm font-semibold mb-5">Get in touch</h4>
                             <ul>
-                                <li className="text-xs font-light mb-2">fopsco.ph@gmail.com</li>
-                                <li className="text-xs font-light mb-2">support@fopsco.ph</li>
-                                <li className="text-xs font-light">+63917 8248 642</li>
+                                <li className="text-xs font-light mb-2">ask@fopsco.ph</li>
+                                <li className="text-xs font-light">+63905 400 3660</li>
                             </ul>                        
                         </div>
                         <div className="w-full xl:w-2/6">
