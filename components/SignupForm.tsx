@@ -47,7 +47,7 @@ export default function SignupForm() {
     if (success) {
         return (
         <p className="text-center text-green-600">
-            Registration successful. Await approval.
+            Thanks for your interest! We’ve sent you an email, please check your inbox to complete your registration.
         </p>
         )
     }
