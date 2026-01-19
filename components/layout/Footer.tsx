@@ -61,8 +61,8 @@ export default function Footer() {
                 </div>
             </div>
             <div className="w-full bg-white">
-                <div className="mx-auto xl:w-4/5 px-5 relative">
-                    &copy; {new Date().getFullYear()} FOPSCo. All rights reserved.
+                <div className="mx-auto xl:w-4/5 px-5 relative flex justify-end pb-3">
+                    <span className="text-sm">&copy; {new Date().getFullYear()} FOPSCo. All rights reserved.</span>
                 </div>
             </div>
         </footer>
