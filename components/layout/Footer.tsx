@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="w-full bg-white">
-                <div className="mx-auto xl:w-4/5 px-5 relative flex justify-end pb-3">
+                <div className="mx-auto xl:w-4/5 px-5 relative flex justify-end border-t py-4">
                     <span className="text-sm">&copy; {new Date().getFullYear()} FOPSCo. All rights reserved.</span>
                 </div>
             </div>
