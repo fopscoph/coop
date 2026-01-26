@@ -15,6 +15,9 @@ const inter = Inter({
 export const metadata: Metadata = {
     title: "FOPSCo",
     description: "Filipino Online Professional Service Cooperative",
+    icons: {
+        icon: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({
