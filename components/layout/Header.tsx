@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <header className="w-full">
             <div className="mx-auto xl:w-4/5 px-5 relative">
-                <div className="flex flex-wrap py-2 justify-between items-center">
+                <div className="flex flex-wrap px-2 md:px-0 py-5 md:py-3 justify-between items-center">
                     <a href="/" className="w-4/12 md:w-2/14">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="12.8 39.951219512195124 485.376 109.09756097560977">
                             <defs></defs>
