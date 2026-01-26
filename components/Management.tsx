@@ -37,6 +37,13 @@ export default function Management() {
                     </div>
                 </div>
                 <div className="rounded-t-3xl bg-ghost-white text-center">
+                    <Image src="/Officers-Jehan.webp" alt="Jehan Forro - Social Media / BOD" width={295} height={337} className="mx-auto" />
+                    <div className="w-full m-0 bg-cloud-burst text-center py-3 rounded-b-3xl">
+                        <h3 className="font-bold text-white">Jehan Forro</h3>
+                        <p className="text-sm text-white font-light">Social Media / BOD</p>
+                    </div>
+                </div>                
+                <div className="rounded-t-3xl bg-ghost-white text-center">
                     <Image src="/Richie-Rebamuntan.webp" alt="Richie Rebamuntan - Head of Marketing Committee / BOD" width={295} height={337} className="mx-auto" />
                     <div className="w-full m-0 bg-cloud-burst text-center py-3 rounded-b-3xl">
                         <h3 className="font-bold text-white">Richie Rebamuntan</h3>
