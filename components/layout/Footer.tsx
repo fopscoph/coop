@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer className="w-full bg-white">
             <div className="mx-auto xl:w-4/5 px-5 relative">
-                <div className="flex flex-wrap items-start pt-15 pb-10 justify-between">
+                <div className="flex flex-wrap items-start pt-15 pb-10 md:justify-between">
                     <div className="xl:w-5/12">
                         <div className="w-1/4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="12.8 39.951219512195124 485.376 109.09756097560977">
@@ -38,7 +38,7 @@ export default function Footer() {
                             </svg>
                         </div>
                     </div>
-                    <div className="xl:w-7/12 flex flex-col xl:flex-row">
+                    <div className="xl:w-7/12 flex flex-col xl:flex-row space-y-4">
                         <div className="w-full xl:w-2/6">
                             <h4 className="text-sm font-semibold mb-5">FOPSCo</h4>
                             <ul>

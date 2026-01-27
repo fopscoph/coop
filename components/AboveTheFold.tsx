@@ -10,7 +10,7 @@ export default function AboveTheFold() {
                 <div className="w-full xl:w-5/6 mx-auto text-center mb-20">
                     <p className="mb-5 md:text-md xl:text-lg font-light">We unite Filipino online professionals and local MSMEs through a member-owned cooperative that delivers ethical work, digital skills, and safety-by-design digital transformation.</p>
                 </div>
-                <div className="w-full rounded-3xl mx-auto bg-cloud-burst p-8 xl:p-12">
+                <div className="w-full rounded-3xl mx-auto bg-cloud-burst p-5 xl:p-12">
                     <span className="mb-5 block uppercase text-xs text-[#F85E00]">About</span>
                     <div className="flex flex-col md:flex-row justify-center items-center mb-30 space-y-5 space-0">
                         <div className="w-full xl:w-3/6">
