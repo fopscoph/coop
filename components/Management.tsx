@@ -37,10 +37,10 @@ export default function Management() {
                     </div>
                 </div>
                 <div className="rounded-t-3xl bg-ghost-white text-center">
-                    <Image src="/Officers-Jehan.webp" alt="Jehan Forro - Social Media / BOD" width={295} height={337} className="mx-auto" />
+                    <Image src="/Officers-Jehan.webp" alt="Jehan Forro - GAD / BOD" width={295} height={337} className="mx-auto" />
                     <div className="w-full m-0 bg-cloud-burst text-center py-3 rounded-b-3xl">
                         <h3 className="font-bold text-white">Jehan Forro</h3>
-                        <p className="text-sm text-white font-light">Social Media / BOD</p>
+                        <p className="text-sm text-white font-light">GAD / BOD</p>
                     </div>
                 </div>                
                 <div className="rounded-t-3xl bg-ghost-white text-center">
