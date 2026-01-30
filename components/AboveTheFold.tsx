@@ -22,7 +22,7 @@ export default function AboveTheFold() {
                     </div>
                     <div className="grid xl:grid-cols-3 gap-5 pb-10">
                         <div className="bg-white rounded-2xl text-center px-5 pt-20 pb-10 mb-15 xl:mb-0 relative">
-                            <div className="w-70 h-70 absolute left-1/2 translate-x-[-15%] top-[-45px]">
+                            <div className="absolute left-1/2 translate-x-[-50%] top-[-45px]">
                                 <Image src="/Our-Mission.svg" alt="Our Mission" width={90} height={90} />
                             </div>
                             <div className="flex items-center justify-center">
@@ -33,7 +33,7 @@ export default function AboveTheFold() {
                             </div>
                         </div>
                         <div className="bg-white rounded-2xl text-center px-5 pt-20 pb-10 mb-15 xl:mb-0 relative">
-                            <div className="w-70 h-70 absolute left-1/2 translate-x-[-15%] top-[-45px]">
+                            <div className="absolute left-1/2 translate-x-[-50%] top-[-45px]">
                                 <Image src="/Our-Vision.svg" alt="Our Vision" width={90} height={90} />
                             </div>
                             <div className="flex items-center justify-center">
@@ -44,7 +44,7 @@ export default function AboveTheFold() {
                             </div>
                         </div>
                         <div className="bg-white rounded-2xl text-center p-5 pt-20 pb-10 relative">
-                            <div className="w-70 h-70 absolute left-1/2 translate-x-[-15%] top-[-45px]">
+                            <div className="absolute left-1/2 translate-x-[-50%] top-[-45px]">
                                 <Image src="/Our-Goal.svg" alt="Our Goal" width={90} height={90} />
                             </div>
                             <div className="flex items-center justify-center">
