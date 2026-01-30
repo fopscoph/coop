@@ -47,7 +47,7 @@ export default function Header() {
                         <button onClick={() => setIsOpen(!isOpen)} className={` ${ isOpen ? 'open ' : ''}w-7 h-4 cursor-pointer relative burger-menu`}>
                             <span className="absolute w-8 h-1 bg-[#182955] rounded-3xl transition-all duration-200 ease-out"></span>
                             <span className="absolute w-8 h-1 bg-[#182955] rounded-3xl transition-all duration-200 ease-out"></span>
-                            <span className={ `${ isOpen ? 'hidden' : 'block' } absolute bg-[#182955] text-[12px] font-semibold tracking-[0px] leading-px `}>menu</span>
+                            <span className={ `${ isOpen ? 'hidden' : 'block' } absolute text-[12px] font-semibold tracking-[0px] leading-px `}>menu</span>
                         </button>
                     </div>
                     <div className={ `${ isOpen ? 'max-h-96 opacity-100 flex' : 'max-h-0 opacity-0 lg:max-h-96 lg:opacity-100' } z-10 bg-white lg:bg-transparent px-4 lg:px-0 lg:flex w-full lg:w-8/12 md:justify-end items-center absolute top-full left-0 lg:relative overflow-hidden transition-all duration-300 ease-out`}>
