@@ -14,7 +14,7 @@ export default function AboveTheFold() {
                     <span className="mb-5 block uppercase text-xs text-[#F85E00]">About</span>
                     <div className="flex flex-col md:flex-row justify-center items-center mb-30 space-y-5 space-0">
                         <div className="w-full xl:w-3/6">
-                            <h2 className="text-white text-2xl xl:text-4xl font-semibold">Filipino Online Professional<br />Service Cooperative</h2>
+                            <h2 className="text-white text-3xl xl:text-4xl font-semibold">Filipino Online Professional<br />Service Cooperative</h2>
                         </div>
                         <div className="w-full xl:w-3/6">
                             <p className="text-white font-light mb-4">FOPSCo is a national cooperative of Filipino online professionals, digital skills trainers, and service practitioners working together to create sustainable livelihoods online. We believe that when freelancers grow together, supported by ethical systems, continuous learning, and responsible technology, digital transformation creates an inclusive, practical, and sustainable-by-design ecosystem.</p>

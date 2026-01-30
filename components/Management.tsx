@@ -5,8 +5,8 @@ export default function Management() {
         <section className="mx-auto xl:w-4/5 px-5 py-20">
             <div className="w-full xl:w-5/6 mx-auto mb-16 text-center">
                 <span className="mb-5 relative inline-block uppercase text-xs pl-5 text-[#F85E00] dot-orange">Fopsco Management</span>
-                <h3 className="text-4xl mb-5 font-semibold cloud-burst">Meet the Team Behind FOPSCo</h3>
-                <p className="text-lg cloud-burst font-light">Led by experienced trainers, digital professionals, and cooperative leaders, <br className="rm-br-lg" />the FOPSCo management team is committed to empowering Filipino online professionals and advancing ethical digital transformation nationwide.</p>
+                <h3 className="text-3xl md:text-4xl mb-5 font-semibold cloud-burst">Meet the Team Behind FOPSCo</h3>
+                <p className="text-md md:text-lg cloud-burst font-light">Led by experienced trainers, digital professionals, and cooperative leaders, <br className="rm-br-lg" />the FOPSCo management team is committed to empowering Filipino online professionals and advancing ethical digital transformation nationwide.</p>
             </div>
             <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 justify-center">
                 <div className="rounded-t-3xl bg-ghost-white text-center">
