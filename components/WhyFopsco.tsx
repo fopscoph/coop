@@ -8,7 +8,7 @@ export default function WhyFopsco() {
     return (
         <section className="mx-auto xl:w-4/5 px-5 py-20">
             <div className="w-full xl:w-5/6 mx-auto mb-16 text-center">
-                <span className="mb-5 block uppercase text-xs text-[#F85E00]">Why Join FOPSCo?</span>
+                <span className="mb-5 inline-block uppercase text-xs text-[#F85E00] pl-5 relative dot-orange">Why Join FOPSCo?</span>
                 <h3 className="text-3xl md:text-4xl mb-5 font-semibold cloud-burst">The Value of Being a FOPSCo Member</h3>
                 <p className="text-lg cloud-burst font-light">See how our community can support your growth, career, and success online.</p>
             </div>
