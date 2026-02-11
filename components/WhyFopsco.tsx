@@ -16,8 +16,8 @@ export default function WhyFopsco() {
                 <div className="px-5 py-10 md:py-20 shadow-[0_9px_10px_1px_rgba(0,0,0,0.14)] rounded-2xl">
                     <div className="w-full">
                         <Image src="/Unlock-Collective-Strength.svg" className="mb-3" alt="Unlock Collective Strength" width={50} height={50} />
-                        <h3 className="text-2xl font-semibold cloud-burst mb-5">Unlock Collective Strength</h3>
-                        <p className="font-light text-[15px]">Gain access to a nationwide network of Filipino online professionals, trainers, and partners. Together, we share opportunities, knowledge, and resources that no individual freelancer can access alone.</p>
+                        <h3 className="text-2xl font-semibold cloud-burst mb-5">Collective Strength</h3>
+                        <p className="font-light text-[15px]">Together, we share opportunities, knowledge, and resources that individual freelancers often struggle to access on their own. </p>
                     </div>
                 </div>
                 <div className="px-5 py-10 md:py-20 shadow-[0_9px_10px_1px_rgba(0,0,0,0.14)] rounded-2xl">
