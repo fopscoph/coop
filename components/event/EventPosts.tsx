@@ -87,7 +87,7 @@ export default async function EventsPage() {
                                     {event.eventCategories.nodes.map((cat: any) => (
                                         <li
                                             key={cat.slug}
-                                            className="text-xs text-white px-3 py-1 rounded-full"
+                                            className="text-xs !text-white px-3 py-1 rounded-full"
                                             style={{
                                                 backgroundColor: cat.categoryColor || "#6b7280",
                                             }}
