@@ -112,6 +112,15 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
-.p-post-color p {
-    color: #364153;
+article p,
+ul li,
+ol li,
+article h1, 
+article h2, 
+article h3, 
+article h4, 
+article h5, 
+article h6, 
+article span {
+    color: #182955;
 }

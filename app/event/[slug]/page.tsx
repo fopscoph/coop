@@ -23,6 +23,19 @@ export default async function EventPage({
 
     if (!event) notFound();
 
+    const formatTo12Hour = (time: string) => {
+        const [hours, minutes] = time.split(':').map(Number);
+
+        const date = new Date();
+        date.setHours(hours, minutes);
+
+        return date.toLocaleTimeString('en-US', {
+            hour: 'numeric',
+            minute: '2-digit',
+            hour12: true,
+        });
+    };
+
     return (
         <div className="w-full bg-ghost-white">
             <article className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 pt-20 pb-24 space-y-10">
@@ -35,7 +48,7 @@ export default async function EventPage({
                             {event.eventCategories.nodes.map((cat: any) => (
                                 <li
                                     key={cat.slug}
-                                    className="text-xs text-white px-3 py-1 rounded-full"
+                                    className="text-xs !text-white px-3 py-1 rounded-full"
                                     style={{
                                         backgroundColor: cat.categoryColor || "#6b7280",
                                     }}
@@ -61,7 +74,7 @@ export default async function EventPage({
                     <h2 className="text-xl font-semibold">Event Overview</h2>
 
                     {event.eventSummary && (
-                        <p className="text-gray-700">{event.eventSummary}</p>
+                        <p>{event.eventSummary}</p>
                     )}
 
                     <EventContentToggle content={event.content} />
@@ -87,8 +100,8 @@ export default async function EventPage({
                             <div>
                                 <span className="font-medium">Time</span>
                                 <p>
-                                    {event.eventStartTime}
-                                    {event.eventEndTime && ` – ${event.eventEndTime}`}
+                                    {formatTo12Hour(event.eventStartTime)}
+                                    {event.eventEndTime && ` – ${formatTo12Hour(event.eventEndTime)}`}
                                 </p>
                             </div>
                         )}
