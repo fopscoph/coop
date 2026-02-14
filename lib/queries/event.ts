@@ -8,6 +8,18 @@ export const EVENT_BY_SLUG_QUERY = `
             status
             content
             
+            featuredImage {
+                node {
+                    id
+                    sourceUrl
+                    altText
+                    mediaDetails {
+                    width
+                    height
+                    }
+                }
+            }     
+                       
             eventCategories {
                 nodes {
                     name
